@@ -11,8 +11,8 @@ while running:
     while player not in options:
         player = input("Enter a choice (rock, paper, scissors): ")
 
-    print(f"Player: {player}")
-    print(f"Computer: {computer}")
+    print("Player: ",player)
+    print("Computer: ",computer)
 
     if player == computer:
         print("It's a tie!")
